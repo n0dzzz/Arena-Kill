@@ -15,7 +15,7 @@ end)
 
 hook.Add("Think", "CheckWin", function()
     
-    if (LocalPlayer():Frags() >= 2) then
+    if (LocalPlayer():Frags() >= 45) then
         LocalPlayer():SetNWString("WinnerName", LocalPlayer():GetName())
         net.Start("EndGame")
         net.SendToServer()
