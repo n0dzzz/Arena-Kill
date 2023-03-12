@@ -1,0 +1,12 @@
+"arenakill"
+{
+	"base"		"default"
+	"title"		"Arena Kill"
+	"maps"		"^ak_"
+	"menusystem"	"1"
+
+	"settings"
+	{
+
+	}
+}
