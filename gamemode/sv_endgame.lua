@@ -10,7 +10,7 @@ net.Receive("EndGame",function(len,ply)
         EndGameVar = false
         for k,v in pairs(player.GetAll()) do
 
-            if(v:Frags() >= 2) then
+            if(v:Frags() >= 45) then
                 WinnerName = v:GetName()
             end
 
